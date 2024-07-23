@@ -9,7 +9,7 @@ Turtlebot3 ROS2 workspace, PC part
 sudo apt-get -y install git
 ```
 
-### passkey, [URL](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+### passkey, [URL](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
 
 create ssh key
 
@@ -30,7 +30,7 @@ show key
 cat ~/.ssh/id_ed25519.pub
 ```
 
-# add to github : [URL](https://github.com/settings/keys)
+add to github : [URL](https://github.com/settings/keys)
 
 ### github web login
 
