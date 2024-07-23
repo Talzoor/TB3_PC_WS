@@ -1,0 +1,37 @@
+[1.746s] Invoking command in '/home/tal/TB3_PC_WS/src/tb_run_script': PYTHONPATH=/home/tal/TB3_PC_WS/build/tb_run_script/prefix_override:/home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_run_script build --build-base /home/tal/TB3_PC_WS/build/tb_run_script/build install --record /home/tal/TB3_PC_WS/build/tb_run_script/install.log --single-version-externally-managed install_data
+[2.892s] running egg_info
+[2.892s] creating ../../build/tb_run_script/tb_run_script.egg-info
+[2.893s] writing ../../build/tb_run_script/tb_run_script.egg-info/PKG-INFO
+[2.893s] writing dependency_links to ../../build/tb_run_script/tb_run_script.egg-info/dependency_links.txt
+[2.893s] writing entry points to ../../build/tb_run_script/tb_run_script.egg-info/entry_points.txt
+[2.893s] writing requirements to ../../build/tb_run_script/tb_run_script.egg-info/requires.txt
+[2.893s] writing top-level names to ../../build/tb_run_script/tb_run_script.egg-info/top_level.txt
+[2.893s] writing manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+[2.893s] reading manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+[2.893s] writing manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+[2.893s] running build
+[2.893s] running build_py
+[2.893s] creating /home/tal/TB3_PC_WS/build/tb_run_script/build
+[2.893s] creating /home/tal/TB3_PC_WS/build/tb_run_script/build/lib
+[2.893s] creating /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+[2.893s] copying tb_run_script/run_script.py -> /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+[2.893s] copying tb_run_script/__init__.py -> /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+[2.893s] running install
+[2.893s] running install_lib
+[2.893s] creating /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages/tb_run_script
+[2.893s] copying /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script/run_script.py -> /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages/tb_run_script
+[2.893s] copying /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script/__init__.py -> /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages/tb_run_script
+[2.893s] byte-compiling /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages/tb_run_script/run_script.py to run_script.cpython-310.pyc
+[2.894s] byte-compiling /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages/tb_run_script/__init__.py to __init__.cpython-310.pyc
+[2.894s] running install_data
+[2.894s] creating /home/tal/TB3_PC_WS/install/tb_run_script/share/ament_index
+[2.894s] creating /home/tal/TB3_PC_WS/install/tb_run_script/share/ament_index/resource_index
+[2.894s] creating /home/tal/TB3_PC_WS/install/tb_run_script/share/ament_index/resource_index/packages
+[2.894s] copying resource/tb_run_script -> /home/tal/TB3_PC_WS/install/tb_run_script/share/ament_index/resource_index/packages
+[2.894s] copying package.xml -> /home/tal/TB3_PC_WS/install/tb_run_script/share/tb_run_script
+[2.894s] running install_egg_info
+[2.894s] Copying ../../build/tb_run_script/tb_run_script.egg-info to /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages/tb_run_script-0.0.0-py3.10.egg-info
+[2.894s] running install_scripts
+[2.894s] Installing run_script script to /home/tal/TB3_PC_WS/install/tb_run_script/lib/tb_run_script
+[2.894s] writing list of installed files to '/home/tal/TB3_PC_WS/build/tb_run_script/install.log'
+[2.894s] Invoked command in '/home/tal/TB3_PC_WS/src/tb_run_script' returned '0': PYTHONPATH=/home/tal/TB3_PC_WS/build/tb_run_script/prefix_override:/home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_run_script build --build-base /home/tal/TB3_PC_WS/build/tb_run_script/build install --record /home/tal/TB3_PC_WS/build/tb_run_script/install.log --single-version-externally-managed install_data

@@ -1,5 +1,6 @@
-# TB3_PC_WS
+# :desktop_computer: TB3_PC_WS :desktop_computer:
 Turtlebot3 ROS2 workspace, PC part
+ros2 humble - installed on ubuntu vm (using VirtualBox)
 
 ## git setup: 
 
