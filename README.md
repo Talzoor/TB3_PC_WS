@@ -6,29 +6,35 @@ Turtlebot3 ROS2 workspace, PC part
 ### install git
 
 ```bash  
-    sudo apt-get -y install git
+sudo apt-get -y install git
 ```
 
 ### passkey, [URL](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-	#create ssh key
+#create ssh key
+
 ```bash  
-	ssh-keygen -t ed25519 -C "tal.turtlebot.mail@gmail.com"
+ssh-keygen -t ed25519 -C "tal.turtlebot.mail@gmail.com"
 ```
-	#Adding your SSH key to the ssh-agent
+
+#Adding your SSH key to the ssh-agent
+
 ```bash
-	eval "$(ssh-agent -s)"
-	ssh-add ~/.ssh/id_ed25519
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
 ```
-	#show key
+
+#show key
+
 ```bash
-	cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
 ```
-	# add to github : [https://github.com/settings/keys](https://github.com/settings/keys)
+
+# add to github : [https://github.com/settings/keys](https://github.com/settings/keys)
 
 ### github web login
 
 ```bash  
-    sudo apt-get -y install gh
-    gh auth login
+sudo apt-get -y install gh
+gh auth login
 ```
