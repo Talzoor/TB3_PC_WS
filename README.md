@@ -47,3 +47,9 @@ make sure to clone ssh address-
 ```bash  
 git clone git@github.com:Talzoor/TB3_PC_WS.git
 ```
+
+### github commit
+
+```bash  
+git add *; git commit -m "commit 24_08_06 update1"; git push origin
+```
