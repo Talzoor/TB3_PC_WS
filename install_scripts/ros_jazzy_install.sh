@@ -1,6 +1,8 @@
 #!/bin/bash
 # from https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
 
+ROS_VER="jazzy"
+
 echo -e "\n---ROS2 installation---\n"
 
 locale  # check for UTF-8
@@ -20,15 +22,16 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
-sudo apt update
-sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install pip
 
 echo -e "\nInstalling base version:"
-sudo apt install -y ros-humble-ros-base
+sudo apt install -y ros-$ROS_VER-ros-base
 pip install -U colcon-common-extensions
 pip install -U colcon-argcomplete
 sudo apt-get install -y python3-colcon-clean 
-sudo apt-get install -y ros-humble-turtlesim
+sudo apt-get install -y ros-$ROS_VER-turtlesim
 
 # Adding auto complete to colcon
 isInFile=$(cat ~/.bashrc | grep -c "source ~/.local/share/colcon_argcomplete/hook/colcon-argcomplete.bash")
@@ -38,12 +41,12 @@ if [ $isInFile -eq 0 ]; then
 fi
 
 echo -e "\nInstalling demo nodes (py and cpp):"
-sudo apt-get install -y ros-humble-demo-nodes-py ros-humble-demo-nodes-cpp
+sudo apt-get install -y ros-$ROS_VER-demo-nodes-py ros-$ROS_VER-demo-nodes-cpp
 
-isInFile=$(cat ~/.bashrc | grep -c "source /opt/ros/humble/setup.bash")
+isInFile=$(cat ~/.bashrc | grep -c "source /opt/ros/${ROS_VER}/setup.bash")
 if [ $isInFile -eq 0 ]; then
     echo -e "\nAdding source to /.bashrc:"
-    echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+    echo "source /opt/ros/${ROS_VER}/setup.bash" >> ~/.bashrc
     echo "source ~/TB3_RPI4_WS/install/setup.bash" >> ~/.bashrc
 fi
 
