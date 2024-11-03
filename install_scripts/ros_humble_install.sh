@@ -3,40 +3,44 @@
 
 RED="\e[31m"
 GREEN="\e[32m"
+BLUE="\e[34m"
+LBLUE="\e[94m"
 BOLDGREEN="\e[1;${GREEN}"
 ITALICRED="\e[3;${RED}"
+ITALICREG="\e[3;"
 ENDCOLOR="\e[0m"
 
 echo -e "${BOLDGREEN}\n---ROS2 installation---\n${ENDCOLOR}"
 
 locale  # check for UTF-8
 
-sudo apt update && sudo apt install -y locales
+sudo apt-get update && sudo apt-get install -y locales
 sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 locale  # verify settings
 
-sudo apt install -y software-properties-common
+sudo apt-get install -y software-properties-common
 sudo add-apt-repository -y universe
 
-sudo apt update && sudo apt install curl -y
+sudo apt-get update && sudo apt-get install curl -y
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
-sudo apt update
-sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
 
 echo -e "${BOLDGREEN}\nInstalling ROS base version:${ENDCOLOR}"
 
-sudo apt install -y pip
-sudo apt install -y ros-humble-ros-base
+sudo apt-get install -y pip
+sudo apt-get install -y ros-humble-ros-base
 pip install -U colcon-common-extensions
 pip install -U colcon-argcomplete
 sudo apt-get install -y python3-colcon-clean 
 sudo apt-get install -y ros-humble-turtlesim
+sudo apt-get install -y gh
 
 # Adding auto complete to colcon
 isInFile=$(cat ~/.bashrc | grep -c "source ~/.local/share/colcon_argcomplete/hook/colcon-argcomplete.bash")
@@ -75,4 +79,6 @@ if [ $isInFile -eq 0 ]; then
 fi
 
 source ~/.bashrc
+
+echo -e "${LBLUE}\nLog in to github? (Type 'gh login')${ENDCOLOR}"
 
