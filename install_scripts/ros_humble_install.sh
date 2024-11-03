@@ -12,6 +12,12 @@ ENDCOLOR="\e[0m"
 
 echo -e "${BOLDGREEN}\n---ROS2 installation---\n${ENDCOLOR}"
 
+echo -e "${BOLDGREEN}\nSetting timezone\n${ENDCOLOR}"
+sudo timedatectl set-timezone Asia/Jerusalem
+
+sudo apt-get install -y ntpdate
+sudo ntpdate time.windows.com
+
 locale  # check for UTF-8
 
 sudo apt-get update && sudo apt-get install -y locales
@@ -57,13 +63,13 @@ isInFile=$(cat ~/.bashrc | grep -c "source /opt/ros/humble/setup.bash")
 if [ $isInFile -eq 0 ]; then
     echo -e "${BOLDGREEN}\nAdding source to /.bashrc:${ENDCOLOR}"
     echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-    echo "source ~/TB3_RPI4_WS/install/setup.bash" >> ~/.bashrc
+    echo "source ~/TB3_PC_WS/install/setup.bash" >> ~/.bashrc
 fi
 
 isInFile=$(cat ~/.bashrc | grep -c "export ROS_DOMAIN_ID")
 if [ $isInFile -eq 0 ]; then
     echo -e "${BOLDGREEN}\nAdding ROS_DOMAIN_ID to /.bashrc:"
-    echo "export ROS_DOMAIN_ID=30" >> ~/.bashrc
+    echo "export ROS_DOMAIN_ID=5" >> ~/.bashrc
 fi
 
 isInFile=$(cat ~/.bashrc | grep -c "export TURTLEBOT3_MODEL")
@@ -80,5 +86,12 @@ fi
 
 source ~/.bashrc
 
-echo -e "${LBLUE}\nLog in to github? (Type 'gh login')${ENDCOLOR}"
+# package to check on src/ dir:
+#   image_transport_plugins
+#   image_transport_tutorials
+#   turtlebot3_simulations
+#   web_video_server
 
+echo -e "${LBLUE}\nIf 'ros2' return error message, source .bashrc or reopen terminal.${ENDCOLOR}"
+echo -e "${LBLUE}\nLog in to github? (Type 'gh auth login')${ENDCOLOR}"
+echo -e "\n"
