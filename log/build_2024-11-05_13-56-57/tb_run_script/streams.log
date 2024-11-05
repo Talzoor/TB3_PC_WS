@@ -1,0 +1,19 @@
+[0.336s] Invoking command in '/home/tal/TB3_PC_WS/build/tb_run_script': PYTHONPATH=/home/tal/TB3_PC_WS/build/tb_run_script/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tal/TB3_PC_WS/build/tb_run_script/build --no-deps symlink_data
+[0.464s] running develop
+[0.464s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.465s]   warnings.warn(
+[0.536s] running egg_info
+[0.536s] writing tb_run_script.egg-info/PKG-INFO
+[0.536s] writing dependency_links to tb_run_script.egg-info/dependency_links.txt
+[0.536s] writing entry points to tb_run_script.egg-info/entry_points.txt
+[0.536s] writing requirements to tb_run_script.egg-info/requires.txt
+[0.536s] writing top-level names to tb_run_script.egg-info/top_level.txt
+[0.537s] reading manifest file 'tb_run_script.egg-info/SOURCES.txt'
+[0.537s] writing manifest file 'tb_run_script.egg-info/SOURCES.txt'
+[0.538s] running build_ext
+[0.538s] Creating /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages/tb-run-script.egg-link (link to .)
+[0.539s] Installing run_script script to /home/tal/TB3_PC_WS/install/tb_run_script/lib/tb_run_script
+[0.539s] 
+[0.539s] Installed /home/tal/TB3_PC_WS/build/tb_run_script
+[0.539s] running symlink_data
+[0.553s] Invoked command in '/home/tal/TB3_PC_WS/build/tb_run_script' returned '0': PYTHONPATH=/home/tal/TB3_PC_WS/build/tb_run_script/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tal/TB3_PC_WS/build/tb_run_script/build --no-deps symlink_data

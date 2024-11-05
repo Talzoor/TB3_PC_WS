@@ -15,6 +15,20 @@ ITALICRED="\e[3;${RED}"
 ITALICREG="\e[3;"
 ENDCOLOR="\e[0m"
 
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+# echo "Script directory: $SCRIPT_DIR"
+VAR_FILE_PATH=$SCRIPT_DIR/variables.sh
+save_var_file () {
+    rm -rf $VAR_FILE_PATH
+    echo "#!/bin/bash" > $VAR_FILE_PATH
+    echo "" >> $VAR_FILE_PATH
+    printf "echo -e \"\\\n\t---Setting vars from 'variables.sh'---\"" >> $VAR_FILE_PATH
+    echo "" >> $VAR_FILE_PATH
+    echo "export ORB_DOCKER_CNAME=${ORB_DOCKER_CNAME_new}" >> $VAR_FILE_PATH
+    echo "export ORB_DOCKER_VER=${ORB_DOCKER_VER_new}" >> $VAR_FILE_PATH
+}
+
 echo -e "${BOLDGREEN}\n--- Docker installation ---${ENDCOLOR}"
 echo -e "${BOLDGREEN}\n docker.hub url = ${ENDCOLOR}https://hub.docker.com/repository/docker/talzzz/orbslam3/general \n${ENDCOLOR}"
 sudo apt-get install -y docker.io
@@ -32,10 +46,6 @@ if [ ! -f $filePath ]; then
     sudo systemctl restart docker
 fi
 
-
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-# echo "Script directory: $SCRIPT_DIR"
-VAR_FILE_PATH=$SCRIPT_DIR/variables.sh
 source $VAR_FILE_PATH
 
 ORB_DOCKER_CNAME=$ORB_DOCKER_CNAME
@@ -43,7 +53,7 @@ ORB_DOCKER_VER=$ORB_DOCKER_VER
 
 echo -e "${BOLDGREEN}\n ORB_DOCKER_CNAME=${BOLDWHITE}${ORB_DOCKER_CNAME}${ENDCOLOR} ${ENDCOLOR}"
 echo -e "${BOLDGREEN} ORB_DOCKER_VER=${BOLDWHITE}${ORB_DOCKER_VER}${ENDCOLOR} ${ENDCOLOR}"
-echo -e "${BOLDWHITE} \n\t\t\tChange it? [N/y] ${ENDCOLOR}:"
+echo -e "${BOLDWHITE} \n\t\t\tChange it? [y/N] ${ENDCOLOR}:"
 
 read -p "" ans
 ans=${ans:-n}
@@ -53,21 +63,15 @@ declare -l ans_lower=${ans}
 if [ $ans_lower = "n" ]; then
     echo -e "${BOLDGREEN} ${ENDCOLOR}"
 else
-    echo -e "${LGREEN} ORB_DOCKER_CNAME ? [CURRENT/new]${ENDCOLOR}"
+    echo -e "${BOLDWHITE} ORB_DOCKER_CNAME : [CURRENT/new]${ENDCOLOR}"
     read -p "" ORB_DOCKER_CNAME_new
     ORB_DOCKER_CNAME_new=${ORB_DOCKER_CNAME_new:-$ORB_DOCKER_CNAME}
     
-    echo -e "${LGREEN} ORB_DOCKER_VER ? [CURRENT/new]${ENDCOLOR}"
+    echo -e "${BOLDWHITE} ORB_DOCKER_VER : (REPO:TAG) [CURRENT/new]${ENDCOLOR}"
     read -p "" ORB_DOCKER_VER_new
     ORB_DOCKER_VER_new=${ORB_DOCKER_VER_new:-$ORB_DOCKER_VER}
     
-    rm -rf $VAR_FILE_PATH
-    echo "#!/bin/bash" > $VAR_FILE_PATH
-    echo "" >> $VAR_FILE_PATH
-    printf "echo -e \"\\\n\t---Setting vars from 'variables.sh'---\"" >> $VAR_FILE_PATH
-    echo "" >> $VAR_FILE_PATH
-    echo "export ORB_DOCKER_CNAME=${ORB_DOCKER_CNAME_new}" >> $VAR_FILE_PATH
-    echo "export ORB_DOCKER_VER=${ORB_DOCKER_VER_new}" >> $VAR_FILE_PATH
+    save_var_file
 
     echo -e "${LGREEN} File 'variables.sh' was saved. Sourcing again. ${ENDCOLOR}"
     source $VAR_FILE_PATH
@@ -75,18 +79,58 @@ fi
 
 sudo xhost +local:root
 dockerVersion="talzzz/${ORB_DOCKER_VER}"
-echo -e "${BOLDGREEN}\n Running container ${ENDCOLOR}(${BOLDWHITE}${dockerVersion}${ENDCOLOR}) --> ${ORB_DOCKER_CNAME} \n${ENDCOLOR}"
+echo -e "${BOLDGREEN}\n Running container ${ENDCOLOR}(${BOLDWHITE}${dockerVersion}${ENDCOLOR}) --> ${LBLUE}${ORB_DOCKER_CNAME}${ENDCOLOR} \n${ENDCOLOR}"
 
 echo -e "${BOLDGREEN}Docker VM instruction${ENDCOLOR}"
 echo -e "${BOLDGREEN}‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾${ENDCOLOR}"
-echo -e "${BOLDGREEN}1. > . ~/catkin_ws/devel/setup.bash${ENDCOLOR}"
-echo -e "${BOLDGREEN}2. > roslaunch orb_slam3_ros_wrapper euroc_monoimu.launch (make sure you see ORB viewer)${ENDCOLOR}"
-echo -e "${BOLDGREEN}3. now run  (make sure you see ORB viewer)${ENDCOLOR}"
+echo -e "${BOLDGREEN}${LBLUE}1.${ENDCOLOR} > . ~/catkin_ws/devel/setup.bash${ENDCOLOR}"
+echo -e "${BOLDGREEN}${LBLUE}2.${ENDCOLOR} > roslaunch orb_slam3_ros_wrapper euroc_monoimu.launch (make sure you see ORB viewer)${ENDCOLOR}"
+echo -e "${BOLDGREEN}${LBLUE}3.${ENDCOLOR} now run  (make sure you see ORB viewer)${ENDCOLOR}"
 echo -e "${BOLDGREEN}running another inctance > sudo docker exec -it orb-3-container bash${ENDCOLOR}"
 echo -e "${BOLDGREEN}\n${ENDCOLOR}"
 
 #sudo docker run --privileged --name orb-3-container --rm -p 8087:8087 -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev:/dev:ro --gpus all -it ${dockerVersion}
-sudo docker run --privileged --name ${ORB_DOCKER_CNAME} --rm --net=host --hostname dockerVM.${ORB_DOCKER_VER} -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev:/dev:ro --gpus all -it ${dockerVersion}
+# sudo docker run --privileged --name ${ORB_DOCKER_CNAME} --net=host --hostname dockerVM.${ORB_DOCKER_VER} -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev:/dev:ro --gpus all -it ${dockerVersion}
+sudo docker run --privileged --name ${ORB_DOCKER_CNAME} --net=host -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev:/dev:ro --gpus all -it ${dockerVersion}
+
+echo -e "\n${BOLDWHITE}\t\t\tDocker closed. commit to hub? [Y/n]\n${ENDCOLOR}"
+read -p "" ans
+ans=${ans:-y}
+declare -l ans_lower=${ans}
+
+if [ $ans_lower = "y" ]; then
+
+    echo -e "\n${BOLDWHITE}\t\t\tChange TAG? [NO/new name lower]\n${ENDCOLOR}"
+    echo -e "${BOLDWHITE}\t\t\tnew name lower, example: v24_11_11\n${ENDCOLOR}"
+
+    read -p "" ans
+    ans=${ans:-no}
+    declare -l ans_lower=${ans}
+    if [ $ans_lower = "no" ]; then
+        echo ""
+    else
+        ORB_DOCKER_VER="orbslam3:${ans_lower}"
+        ORB_DOCKER_VER_new=$ORB_DOCKER_VER
+        save_var_file
+    fi
+
+    echo -e "${BOLDGREEN} Commiting, ${ENDCOLOR}"
+    sudo docker commit $ORB_DOCKER_CNAME talzzz/$ORB_DOCKER_VER; sudo docker push talzzz/$ORB_DOCKER_VER
+
+    echo -e "${BOLDGREEN} Removing container, ${ENDCOLOR}"
+    sudo docker rm $ORB_DOCKER_CNAME
+else
+    echo -e "\n${BOLDWHITE}\t\t\tRemove container '${ORB_DOCKER_CNAME}' (docker rm)? [Y/n]\n${ENDCOLOR}"
+    read -p "" ans
+    ans=${ans:-y}
+    declare -l ans_lower=${ans}
+
+    if [ $ans_lower = "y" ]; then
+        sudo docker rm $ORB_DOCKER_CNAME   
+    fi
+fi
+
+echo -e "${BOLDGREEN} --- Script end ---${ENDCOLOR}"
 
 # commit and push
 # sudo docker login

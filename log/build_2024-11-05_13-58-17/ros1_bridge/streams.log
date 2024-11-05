@@ -1,0 +1,66 @@
+[0.006s] Invoking command in '/home/tal/TB3_PC_WS/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/humble /usr/bin/cmake /home/tal/TB3_PC_WS/src/ros1_bridge-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tal/TB3_PC_WS/install/ros1_bridge
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.195s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.197s] -- Found rmw: 6.1.2 (/opt/ros/humble/share/rmw/cmake)
+[0.279s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.313s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.341s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.355s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.358s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.362s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.401s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.402s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.446s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.461s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.486s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.491s] -- Looking for pthread.h
+[0.539s] -- Looking for pthread.h - found
+[0.540s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.588s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.589s] -- Found Threads: TRUE  
+[0.622s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.625s] -- Checking for module 'roscpp'
+[0.626s] --   No package 'roscpp' found
+[0.626s] [33mCMake Warning at CMakeLists.txt:36 (message):
+[0.626s]   Failed to find ROS 1 roscpp, skipping...
+[0.626s] 
+[0.626s] [0m
+[0.664s] -- Configuring done
+[0.666s] -- Generating done
+[0.667s] -- Build files have been written to: /home/tal/TB3_PC_WS/build/ros1_bridge
+[0.673s] Invoked command in '/home/tal/TB3_PC_WS/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/humble /usr/bin/cmake /home/tal/TB3_PC_WS/src/ros1_bridge-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tal/TB3_PC_WS/install/ros1_bridge
+[0.673s] Invoking command in '/home/tal/TB3_PC_WS/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/humble /usr/bin/cmake --build /home/tal/TB3_PC_WS/build/ros1_bridge -- -j16 -l16
+[0.697s] Invoked command in '/home/tal/TB3_PC_WS/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/humble /usr/bin/cmake --build /home/tal/TB3_PC_WS/build/ros1_bridge -- -j16 -l16
+[0.751s] Invoking command in '/home/tal/TB3_PC_WS/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/humble /usr/bin/cmake --install /home/tal/TB3_PC_WS/build/ros1_bridge
+[0.769s] -- Install configuration: ""
+[0.770s] -- Execute custom install script
+[0.770s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ament_index/resource_index/package_run_dependencies/ros1_bridge
+[0.784s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ament_index/resource_index/parent_prefix_path/ros1_bridge
+[0.791s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.sh
+[0.795s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.dsv
+[0.804s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/environment/path.sh
+[0.812s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/environment/path.dsv
+[0.819s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/local_setup.bash
+[0.825s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/local_setup.sh
+[0.838s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/local_setup.zsh
+[0.850s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/local_setup.dsv
+[0.860s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/package.dsv
+[0.867s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ament_index/resource_index/packages/ros1_bridge
+[0.872s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_package.cmake
+[0.880s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_interface_packages.cmake
+[0.896s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig.cmake
+[0.907s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig-version.cmake
+[0.920s] -- Symlinking: /home/tal/TB3_PC_WS/install/ros1_bridge/share/ros1_bridge/package.xml
+[0.939s] Invoked command in '/home/tal/TB3_PC_WS/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/humble /usr/bin/cmake --install /home/tal/TB3_PC_WS/build/ros1_bridge
