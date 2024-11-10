@@ -1,0 +1,59 @@
+[0.017s] Invoking command in '/home/tal/TB3_PC_WS/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_simulations:/home/tal/TB3_PC_WS/install/turtlebot3_gazebo:/home/tal/TB3_PC_WS/install/turtlebot3_fake_node:/home/tal/TB3_PC_WS/install/ros1_bridge:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/noetic /usr/bin/cmake /home/tal/TB3_PC_WS/src/turtlebot3_simulations-humble-devel/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/tal/TB3_PC_WS/install/turtlebot3_fake_node
+[0.051s] -- The C compiler identification is GNU 9.4.0
+[0.081s] -- The CXX compiler identification is GNU 9.4.0
+[0.084s] -- Check for working C compiler: /usr/bin/cc
+[0.124s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.124s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.171s] -- Check for working CXX compiler: /usr/bin/c++
+[0.216s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.217s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.282s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.327s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.342s] -- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+[0.346s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.356s] -- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+[0.405s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[0.447s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.478s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.479s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.490s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.491s] -- Looking for pthread.h
+[0.529s] -- Looking for pthread.h - found
+[0.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.568s] -- Looking for pthread_create in pthreads
+[0.599s] -- Looking for pthread_create in pthreads - not found
+[0.599s] -- Looking for pthread_create in pthread
+[0.635s] -- Looking for pthread_create in pthread - found
+[0.636s] -- Found Threads: TRUE  
+[0.713s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.753s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[0.759s] -- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[0.865s] CMake Error at CMakeLists.txt:25 (find_package):
+[0.865s]   By not providing "Findturtlebot3_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.865s]   project has asked CMake to find a package configuration file provided by
+[0.865s]   "turtlebot3_msgs", but CMake did not find one.
+[0.865s] 
+[0.865s]   Could not find a package configuration file provided by "turtlebot3_msgs"
+[0.865s]   with any of the following names:
+[0.865s] 
+[0.865s]     turtlebot3_msgsConfig.cmake
+[0.865s]     turtlebot3_msgs-config.cmake
+[0.865s] 
+[0.865s]   Add the installation prefix of "turtlebot3_msgs" to CMAKE_PREFIX_PATH or
+[0.865s]   set "turtlebot3_msgs_DIR" to a directory containing one of the above files.
+[0.865s]   If "turtlebot3_msgs" provides a separate development package or SDK, be
+[0.865s]   sure it has been installed.
+[0.865s] 
+[0.865s] 
+[0.865s] -- Configuring incomplete, errors occurred!
+[0.866s] See also "/home/tal/TB3_PC_WS/build/turtlebot3_fake_node/CMakeFiles/CMakeOutput.log".
+[0.866s] See also "/home/tal/TB3_PC_WS/build/turtlebot3_fake_node/CMakeFiles/CMakeError.log".

@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/tb_run_script/tb_run_script.egg-info
+writing ../../build/tb_run_script/tb_run_script.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb_run_script/tb_run_script.egg-info/dependency_links.txt
+writing entry points to ../../build/tb_run_script/tb_run_script.egg-info/entry_points.txt
+writing requirements to ../../build/tb_run_script/tb_run_script.egg-info/requires.txt
+writing top-level names to ../../build/tb_run_script/tb_run_script.egg-info/top_level.txt
+writing manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+reading manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tal/TB3_PC_WS/build/tb_run_script/build
+creating /home/tal/TB3_PC_WS/build/tb_run_script/build/lib
+creating /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+copying tb_run_script/run_script (copy).py -> /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+copying tb_run_script/__init__.py -> /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+copying tb_run_script/run_script.py -> /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+running install
+running install_lib
+creating /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script
+copying /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script/run_script (copy).py -> /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script
+copying /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script/__init__.py -> /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script
+copying /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script/run_script.py -> /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script
+byte-compiling /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script/run_script (copy).py to run_script (copy).cpython-38.pyc
+byte-compiling /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script/run_script.py to run_script.cpython-38.pyc
+running install_data
+copying resource/tb_run_script -> /home/tal/TB3_PC_WS/install/tb_run_script/share/ament_index/resource_index/packages
+error: could not create '/home/tal/TB3_PC_WS/install/tb_run_script/share/ament_index/resource_index/packages/tb_run_script': No such file or directory

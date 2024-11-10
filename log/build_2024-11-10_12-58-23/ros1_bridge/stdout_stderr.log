@@ -1,0 +1,123 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rmw: 3.3.1 (/opt/ros/galactic/share/rmw/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'roscpp'
+--   Found roscpp, version 1.17.0
+-- Checking for module 'std_msgs'
+--   Found std_msgs, version 0.5.13
+-- Checking for module 'actionlib'
+--   Found actionlib, version 1.14.0
+-- Checking for module 'actionlib_msgs'
+--   Found actionlib_msgs, version 1.13.1
+-- Checking for module 'bond'
+--   Found bond, version 1.8.6
+-- Checking for module 'diagnostic_msgs'
+--   Found diagnostic_msgs, version 1.13.1
+-- Checking for module 'dynamic_reconfigure'
+--   Found dynamic_reconfigure, version 1.7.3
+-- Checking for module 'geometry_msgs'
+--   Found geometry_msgs, version 1.13.1
+-- Checking for module 'nav_msgs'
+--   Found nav_msgs, version 1.13.1
+-- Checking for module 'rosgraph_msgs'
+--   Found rosgraph_msgs, version 1.11.3
+-- Checking for module 'sensor_msgs'
+--   Found sensor_msgs, version 1.13.1
+-- Checking for module 'shape_msgs'
+--   Found shape_msgs, version 1.13.1
+-- Checking for module 'stereo_msgs'
+--   Found stereo_msgs, version 1.13.1
+-- Checking for module 'trajectory_msgs'
+--   Found trajectory_msgs, version 1.13.1
+-- Checking for module 'visualization_msgs'
+--   Found visualization_msgs, version 1.13.1
+-- Checking for module 'std_srvs'
+--   Found std_srvs, version 1.11.3
+-- Checking for module 'topic_tools'
+--   Found topic_tools, version 1.17.0
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Found diagnostic_msgs: 2.2.4 (/opt/ros/galactic/share/diagnostic_msgs/cmake)
+-- Checking for module 'roslaunch'
+--   Found roslaunch, version 1.17.0
+-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Found action_msgs: 1.0.3 (/opt/ros/galactic/share/action_msgs/cmake)
+-- Found actionlib_msgs: 2.2.4 (/opt/ros/galactic/share/actionlib_msgs/cmake)
+-- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+-- Found composition_interfaces: 1.0.3 (/opt/ros/galactic/share/composition_interfaces/cmake)
+-- Found diagnostic_msgs: 2.2.4 (/opt/ros/galactic/share/diagnostic_msgs/cmake)
+-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Found libstatistics_collector: 1.1.1 (/opt/ros/galactic/share/libstatistics_collector/cmake)
+-- Found lifecycle_msgs: 1.0.3 (/opt/ros/galactic/share/lifecycle_msgs/cmake)
+-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+-- Found rcl_interfaces: 1.0.3 (/opt/ros/galactic/share/rcl_interfaces/cmake)
+-- Found rmw_dds_common: 1.2.1 (/opt/ros/galactic/share/rmw_dds_common/cmake)
+-- Found rosbag2_interfaces: 0.9.2 (/opt/ros/galactic/share/rosbag2_interfaces/cmake)
+-- Found rosgraph_msgs: 1.0.3 (/opt/ros/galactic/share/rosgraph_msgs/cmake)
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found shape_msgs: 2.2.4 (/opt/ros/galactic/share/shape_msgs/cmake)
+-- Found statistics_msgs: 1.0.3 (/opt/ros/galactic/share/statistics_msgs/cmake)
+-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+-- Found stereo_msgs: 2.2.4 (/opt/ros/galactic/share/stereo_msgs/cmake)
+-- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+-- Found trajectory_msgs: 2.2.4 (/opt/ros/galactic/share/trajectory_msgs/cmake)
+-- Found turtlesim: 1.3.4 (/opt/ros/galactic/share/turtlesim/cmake)
+-- Found unique_identifier_msgs: 2.2.1 (/opt/ros/galactic/share/unique_identifier_msgs/cmake)
+-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tal/TB3_PC_WS/build/ros1_bridge

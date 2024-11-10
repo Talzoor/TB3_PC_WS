@@ -1,0 +1,31 @@
+[0.359s] Invoking command in '/home/tal/TB3_PC_WS/src/tb_run_script': PYTHONPATH=/home/tal/TB3_PC_WS/build/tb_run_script/prefix_override:/home/tal/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_run_script build --build-base /home/tal/TB3_PC_WS/build/tb_run_script/build install --record /home/tal/TB3_PC_WS/build/tb_run_script/install.log --single-version-externally-managed install_data
+[0.479s] running egg_info
+[0.480s] creating ../../build/tb_run_script/tb_run_script.egg-info
+[0.480s] writing ../../build/tb_run_script/tb_run_script.egg-info/PKG-INFO
+[0.480s] writing dependency_links to ../../build/tb_run_script/tb_run_script.egg-info/dependency_links.txt
+[0.481s] writing entry points to ../../build/tb_run_script/tb_run_script.egg-info/entry_points.txt
+[0.481s] writing requirements to ../../build/tb_run_script/tb_run_script.egg-info/requires.txt
+[0.482s] writing top-level names to ../../build/tb_run_script/tb_run_script.egg-info/top_level.txt
+[0.482s] writing manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+[0.501s] reading manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+[0.501s] writing manifest file '../../build/tb_run_script/tb_run_script.egg-info/SOURCES.txt'
+[0.502s] running build
+[0.502s] running build_py
+[0.502s] creating /home/tal/TB3_PC_WS/build/tb_run_script/build
+[0.502s] creating /home/tal/TB3_PC_WS/build/tb_run_script/build/lib
+[0.502s] creating /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+[0.502s] copying tb_run_script/run_script (copy).py -> /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+[0.502s] copying tb_run_script/__init__.py -> /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+[0.502s] copying tb_run_script/run_script.py -> /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script
+[0.502s] running install
+[0.502s] running install_lib
+[0.503s] creating /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script
+[0.503s] copying /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script/run_script (copy).py -> /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script
+[0.503s] copying /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script/__init__.py -> /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script
+[0.503s] copying /home/tal/TB3_PC_WS/build/tb_run_script/build/lib/tb_run_script/run_script.py -> /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script
+[0.503s] byte-compiling /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script/run_script (copy).py to run_script (copy).cpython-38.pyc
+[0.505s] byte-compiling /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script/__init__.py to __init__.cpython-38.pyc
+[0.505s] byte-compiling /home/tal/TB3_PC_WS/install/tb_run_script/lib/python3.8/site-packages/tb_run_script/run_script.py to run_script.cpython-38.pyc
+[0.506s] running install_data
+[0.506s] copying resource/tb_run_script -> /home/tal/TB3_PC_WS/install/tb_run_script/share/ament_index/resource_index/packages
+[0.506s] error: could not create '/home/tal/TB3_PC_WS/install/tb_run_script/share/ament_index/resource_index/packages/tb_run_script': No such file or directory

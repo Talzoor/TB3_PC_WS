@@ -1,0 +1,113 @@
+[0.007s] Invoking command in '/home/tal/TB3_PC_WS/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_simulations:/home/tal/TB3_PC_WS/install/turtlebot3_gazebo:/home/tal/TB3_PC_WS/install/turtlebot3_fake_node:/home/tal/TB3_PC_WS/install/ros1_bridge:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/noetic /usr/bin/cmake --build /home/tal/TB3_PC_WS/build/ros1_bridge -- -j16 -l16
+[0.035s] -- Found rmw: 3.3.1 (/opt/ros/galactic/share/rmw/cmake)
+[0.045s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.088s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.099s] -- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+[0.101s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.110s] -- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+[0.139s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.140s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.150s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.490s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.491s] -- Found diagnostic_msgs: 2.2.4 (/opt/ros/galactic/share/diagnostic_msgs/cmake)
+[0.573s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[0.582s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.583s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.583s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.583s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.638s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.650s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.651s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.651s] -- Configured cppcheck include dirs: 
+[0.651s] -- Configured cppcheck exclude dirs and/or files: 
+[0.652s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.652s] -- Configured cpplint exclude dirs and/or files: 
+[0.652s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.653s] -- Added test 'lint_cmake' to check CMake code style
+[0.653s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.654s] -- Added test 'uncrustify' to check C / C++ code style
+[0.654s] -- Configured uncrustify additional arguments: 
+[0.654s] -- Added test 'xmllint' to check XML markup files
+[0.677s] -- Found action_msgs: 1.0.3 (/opt/ros/galactic/share/action_msgs/cmake)
+[0.697s] -- Found actionlib_msgs: 2.2.4 (/opt/ros/galactic/share/actionlib_msgs/cmake)
+[0.697s] -- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+[0.716s] -- Found composition_interfaces: 1.0.3 (/opt/ros/galactic/share/composition_interfaces/cmake)
+[0.883s] -- Found control_msgs: 3.0.0 (/opt/ros/galactic/share/control_msgs/cmake)
+[0.892s] -- Found controller_manager_msgs: 1.6.0 (/opt/ros/galactic/share/controller_manager_msgs/cmake)
+[0.893s] -- Found diagnostic_msgs: 2.2.4 (/opt/ros/galactic/share/diagnostic_msgs/cmake)
+[0.924s] -- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)
+[0.994s] -- Found gazebo_msgs: 3.5.2 (/opt/ros/galactic/share/gazebo_msgs/cmake)
+[0.995s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.995s] -- Found libstatistics_collector: 1.1.1 (/opt/ros/galactic/share/libstatistics_collector/cmake)
+[1.000s] -- Found lifecycle_msgs: 1.0.3 (/opt/ros/galactic/share/lifecycle_msgs/cmake)
+[1.039s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.039s] -- Found rcl_interfaces: 1.0.3 (/opt/ros/galactic/share/rcl_interfaces/cmake)
+[1.040s] -- Found rmw_dds_common: 1.2.1 (/opt/ros/galactic/share/rmw_dds_common/cmake)
+[1.049s] -- Found rosbag2_interfaces: 0.9.2 (/opt/ros/galactic/share/rosbag2_interfaces/cmake)
+[1.049s] -- Found rosgraph_msgs: 1.0.3 (/opt/ros/galactic/share/rosgraph_msgs/cmake)
+[1.049s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.084s] -- Found shape_msgs: 2.2.4 (/opt/ros/galactic/share/shape_msgs/cmake)
+[1.084s] -- Found statistics_msgs: 1.0.3 (/opt/ros/galactic/share/statistics_msgs/cmake)
+[1.084s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[1.089s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[1.152s] -- Found stereo_msgs: 2.2.4 (/opt/ros/galactic/share/stereo_msgs/cmake)
+[1.226s] -- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[1.227s] -- Found trajectory_msgs: 2.2.4 (/opt/ros/galactic/share/trajectory_msgs/cmake)
+[1.256s] -- Found turtlesim: 1.3.4 (/opt/ros/galactic/share/turtlesim/cmake)
+[1.256s] -- Found unique_identifier_msgs: 2.2.1 (/opt/ros/galactic/share/unique_identifier_msgs/cmake)
+[1.295s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[1.402s] -- Configuring done
+[1.523s] -- Generating done
+[1.526s] -- Build files have been written to: /home/tal/TB3_PC_WS/build/ros1_bridge
+[1.543s] [35m[1mScanning dependencies of target test_ros1_client[0m
+[1.543s] [35m[1mScanning dependencies of target test_ros1_server[0m
+[1.544s] [35m[1mScanning dependencies of target test_ros2_server_cpp[0m
+[1.544s] [35m[1mScanning dependencies of target simple_bridge[0m
+[1.544s] make[2]: Warning: File '/home/tal/TB3_PC_WS/src/ros1_bridge-master/ros1_bridge/__init__.py' has modification time 25494 s in the future
+[1.544s] make[2]: *** No rule to make target '/home/tal/TB3_PC_WS/src/ros1_bridge-master/bin/ros1_bridge_generate_factories', needed by 'generated/get_factory.cpp'.  Stop.
+[1.545s] make[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/ros1_bridge.dir/all] Error 2
+[1.545s] make[1]: *** Waiting for unfinished jobs....
+[1.546s] [35m[1mScanning dependencies of target test_ros2_client_cpp[0m
+[1.546s] [35m[1mScanning dependencies of target simple_bridge_1_to_2[0m
+[1.547s] [35m[1mScanning dependencies of target simple_bridge_2_to_1[0m
+[1.547s] make[2]: Warning: File '/home/tal/TB3_PC_WS/src/ros1_bridge-master/test/test_ros1_client.cpp' has modification time 25494 s in the future
+[1.548s] make[2]: Warning: File '/home/tal/TB3_PC_WS/src/ros1_bridge-master/test/test_ros1_server.cpp' has modification time 25494 s in the future
+[1.548s] [  1%] Built target gtest
+[1.550s] [  1%] Built target gtest_main
+[1.553s] [  1%] [32mBuilding CXX object CMakeFiles/test_ros1_client.dir/test/test_ros1_client.cpp.o[0m
+[1.553s] [  1%] Built target ament_cmake_python_copy_ros1_bridge
+[1.554s] [  1%] [32mBuilding CXX object CMakeFiles/test_ros1_server.dir/test/test_ros1_server.cpp.o[0m
+[1.559s] make[2]: Warning: File '/home/tal/TB3_PC_WS/src/ros1_bridge-master/src/simple_bridge.cpp' has modification time 25494 s in the future
+[1.559s] make[2]: Warning: File '/home/tal/TB3_PC_WS/src/ros1_bridge-master/test/test_ros2_client.cpp' has modification time 25494 s in the future
+[1.559s] make[2]: Warning: File '/home/tal/TB3_PC_WS/src/ros1_bridge-master/src/simple_bridge_1_to_2.cpp' has modification time 25494 s in the future
+[1.561s] make[2]: Warning: File '/home/tal/TB3_PC_WS/src/ros1_bridge-master/src/simple_bridge_2_to_1.cpp' has modification time 25494 s in the future
+[1.561s] make[2]: Warning: File '/home/tal/TB3_PC_WS/src/ros1_bridge-master/test/test_ros2_server.cpp' has modification time 25494 s in the future
+[1.567s] [  1%] [32mBuilding CXX object CMakeFiles/test_ros2_client_cpp.dir/test/test_ros2_client.cpp.o[0m
+[1.567s] [  1%] [32mBuilding CXX object CMakeFiles/simple_bridge_2_to_1.dir/src/simple_bridge_2_to_1.cpp.o[0m
+[1.567s] [  2%] [32mBuilding CXX object CMakeFiles/simple_bridge_1_to_2.dir/src/simple_bridge_1_to_2.cpp.o[0m
+[1.567s] [  2%] [32mBuilding CXX object CMakeFiles/simple_bridge.dir/src/simple_bridge.cpp.o[0m
+[1.569s] [  3%] [32mBuilding CXX object CMakeFiles/test_ros2_server_cpp.dir/test/test_ros2_server.cpp.o[0m
+[2.785s] [  3%] [32m[1mLinking CXX executable test_ros1_client[0m
+[2.816s] [  4%] [32m[1mLinking CXX executable test_ros1_server[0m
+[2.896s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.903s] [  4%] Built target test_ros1_client
+[2.929s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.936s] [  4%] Built target test_ros1_server
+[3.357s] [  4%] [32m[1mLinking CXX executable test_ros2_server_cpp[0m
+[3.442s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.447s] [  4%] Built target test_ros2_server_cpp
+[3.535s] [  4%] [32m[1mLinking CXX executable test_ros2_client_cpp[0m
+[3.620s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.625s] [  4%] Built target test_ros2_client_cpp
+[4.988s] [  4%] [32m[1mLinking CXX executable simple_bridge_1_to_2[0m
+[5.131s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.135s] [  4%] Built target simple_bridge_1_to_2
+[6.487s] [  4%] [32m[1mLinking CXX executable simple_bridge_2_to_1[0m
+[6.681s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.686s] [  4%] Built target simple_bridge_2_to_1
+[6.756s] [  4%] [32m[1mLinking CXX executable simple_bridge[0m
+[6.957s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.961s] [  4%] Built target simple_bridge
+[6.962s] make: *** [Makefile:141: all] Error 2
+[6.963s] Invoked command in '/home/tal/TB3_PC_WS/build/ros1_bridge' returned '2': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_simulations:/home/tal/TB3_PC_WS/install/turtlebot3_gazebo:/home/tal/TB3_PC_WS/install/turtlebot3_fake_node:/home/tal/TB3_PC_WS/install/ros1_bridge:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:/opt/ros/noetic /usr/bin/cmake --build /home/tal/TB3_PC_WS/build/ros1_bridge -- -j16 -l16
