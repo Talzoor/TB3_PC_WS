@@ -43,6 +43,7 @@ sudo apt-get install -y pip
 sudo apt-get install -y ros-galactic-ros-base
 sudo apt-get install -y python3-colcon-common-extensions
 sudo apt-get install -y ros-galactic-turtlesim
+sudo apt-get install -y ros-galactic-dynamixel-sdk
 sudo apt-get install -y ros-galactic-gazebo*
 sudo apt-get install -y gh
 
