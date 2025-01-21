@@ -1,0 +1,319 @@
+[0.024s] Invoking command in '/home/tal/TB3_PC_WS/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_teleop:/home/tal/TB3_PC_WS/install/turtlebot3_example:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tal/TB3_PC_WS/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/tal/TB3_PC_WS/install/turtlebot3_msgs
+[0.369s] -- The C compiler identification is GNU 9.4.0
+[0.369s] -- The CXX compiler identification is GNU 9.4.0
+[0.369s] -- Check for working C compiler: /usr/bin/cc
+[0.369s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.369s] -- Detecting C compiler ABI info
+[0.369s] -- Detecting C compiler ABI info - done
+[0.369s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.370s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.370s] -- Found action_msgs: 1.0.3 (/opt/ros/galactic/share/action_msgs/cmake)
+[0.370s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.371s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.421s] -- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+[0.427s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.448s] -- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+[0.498s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.506s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[0.528s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.665s] -- Found ament_cmake_cppcheck: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cppcheck/cmake)
+[0.666s] -- Found ament_cmake_cpplint: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cpplint/cmake)
+[0.667s] -- Found ament_cmake_uncrustify: 0.10.7 (/opt/ros/galactic/share/ament_cmake_uncrustify/cmake)
+[0.697s] -- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+[0.748s] -- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+[0.763s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.764s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[0.777s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.777s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.777s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.777s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.787s] -- Found PythonExtra: .so  
+[0.831s] -- Found ament_cmake_flake8: 0.10.7 (/opt/ros/galactic/share/ament_cmake_flake8/cmake)
+[0.833s] -- Found ament_cmake_pep257: 0.10.7 (/opt/ros/galactic/share/ament_cmake_pep257/cmake)
+[0.839s] -- Configuring done
+[0.864s] -- Generating done
+[0.865s] -- Build files have been written to: /home/tal/TB3_PC_WS/build/turtlebot3_msgs
+[0.868s] Invoked command in '/home/tal/TB3_PC_WS/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_teleop:/home/tal/TB3_PC_WS/install/turtlebot3_example:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tal/TB3_PC_WS/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/tal/TB3_PC_WS/install/turtlebot3_msgs
+[0.869s] Invoking command in '/home/tal/TB3_PC_WS/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_teleop:/home/tal/TB3_PC_WS/install/turtlebot3_example:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tal/TB3_PC_WS/build/turtlebot3_msgs -- -j16 -l16
+[0.893s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.893s] [35m[1mScanning dependencies of target turtlebot3_msgs__cpp[0m
+[0.899s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.368s] [  3%] Built target turtlebot3_msgs__cpp
+[1.374s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.408s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_generator_c[0m
+[1.417s] [ 11%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sound__functions.c.o[0m
+[1.417s] [ 11%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/version_info__functions.c.o[0m
+[1.417s] [ 11%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__functions.c.o[0m
+[1.418s] [ 13%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sensor_state__functions.c.o[0m
+[1.418s] [ 15%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/sound__functions.c.o[0m
+[1.419s] [ 16%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/dqn__functions.c.o[0m
+[1.483s] [ 18%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_generator_c.so[0m
+[1.506s] [ 18%] Built target turtlebot3_msgs__rosidl_generator_c
+[1.513s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.775s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.787s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/version_info__type_support.cpp.o[0m
+[1.787s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp.o[0m
+[1.787s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/dqn__type_support.cpp.o[0m
+[1.787s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sound__type_support.cpp.o[0m
+[1.788s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/sound__type_support.cpp.o[0m
+[1.788s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/action/detail/patrol__type_support.cpp.o[0m
+[2.082s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c[0m
+[2.097s] [ 33%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/action/detail/patrol__type_support.c.o[0m
+[2.097s] [ 41%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/version_info__type_support.c.o[0m
+[2.098s] [ 41%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sensor_state__type_support.c.o[0m
+[2.098s] [ 41%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/sound__type_support.c.o[0m
+[2.098s] [ 41%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sound__type_support.c.o[0m
+[2.098s] [ 43%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/dqn__type_support.c.o[0m
+[2.139s] [ 45%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.162s] [ 45%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[2.169s] [ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.207s] [ 49%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.262s] [ 49%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[2.269s] [ 50%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.530s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c[0m
+[2.545s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[2.545s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[2.545s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[2.545s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/dqn__type_support.cpp.o[0m
+[2.545s] [ 60%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[2.554s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[2.585s] [ 64%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_c.so[0m
+[2.614s] [ 64%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[2.650s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_cpp[0m
+[2.663s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[2.663s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/dqn__type_support.cpp.o[0m
+[2.663s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[2.663s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[2.664s] [ 73%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[2.664s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[3.054s] [ 77%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_cpp.so[0m
+[3.080s] [ 77%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[3.087s] [35m[1mScanning dependencies of target turtlebot3_msgs[0m
+[3.094s] [ 77%] Built target turtlebot3_msgs
+[3.101s] [35m[1mScanning dependencies of target turtlebot3_msgs__py[0m
+[3.108s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.111s] [ 79%] Built target turtlebot3_msgs__py
+[4.117s] [35m[1mScanning dependencies of target turtlebot3_msgs__python[0m
+[4.137s] [ 81%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/action/_patrol_s.c.o[0m
+[4.137s] [ 83%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_version_info_s.c.o[0m
+[4.137s] [ 84%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sensor_state_s.c.o[0m
+[4.137s] [ 86%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sound_s.c.o[0m
+[4.142s] [ 88%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_dqn_s.c.o[0m
+[4.142s] [ 90%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o[0m
+[4.228s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__python.so[0m
+[4.265s] [ 92%] Built target turtlebot3_msgs__python
+[4.272s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.272s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c__pyext[0m
+[4.286s] [ 96%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.286s] [ 96%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.366s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.368s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.393s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[4.393s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[4.401s] Invoked command in '/home/tal/TB3_PC_WS/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_teleop:/home/tal/TB3_PC_WS/install/turtlebot3_example:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tal/TB3_PC_WS/build/turtlebot3_msgs -- -j16 -l16
+[4.456s] Invoking command in '/home/tal/TB3_PC_WS/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_teleop:/home/tal/TB3_PC_WS/install/turtlebot3_example:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/tal/TB3_PC_WS/build/turtlebot3_msgs
+[4.464s] -- Install configuration: ""
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.h
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.c
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.h
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.h
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.h
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.h
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__functions.h
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__struct.h
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.h
+[4.465s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.c
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__functions.c
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/dqn.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.c
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.h
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.c
+[4.466s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.h
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.c
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.h
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.h
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.h
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.h
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.h
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv
+[4.467s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+[4.467s] -- Set runtime path of "/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so" to ""
+[4.467s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs
+[4.467s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[4.467s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.c
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h
+[4.468s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[4.468s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.c
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_c.h
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.c
+[4.468s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[4.468s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.c
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.c
+[4.468s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.c
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+[4.469s] -- Set runtime path of "/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+[4.469s] -- Set runtime path of "/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so" to ""
+[4.469s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs
+[4.469s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[4.469s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__builder.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__traits.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.hpp
+[4.469s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[4.469s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__struct.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__traits.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__builder.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__builder.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__traits.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/dqn.hpp
+[4.469s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.hpp
+[4.470s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[4.470s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__traits.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__builder.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__traits.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__builder.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.hpp
+[4.470s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs
+[4.470s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[4.470s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.cpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[4.470s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[4.470s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_cpp.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.cpp
+[4.470s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.cpp
+[4.471s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[4.471s] -- Up-to-date: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.cpp
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.cpp
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+[4.471s] -- Set runtime path of "/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+[4.471s] -- Set runtime path of "/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so" to ""
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv
+[4.471s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py
+[4.491s] Compiling '/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py'...
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state.py
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info.py
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/__init__.py
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info_s.c
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound.py
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound_s.c
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state_s.c
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_dqn_s.c
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/__init__.py
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_dqn.py
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound.py
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound_s.c
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action
+[4.495s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/__init__.py
+[4.496s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol_s.c
+[4.496s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol.py
+[4.496s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.496s] -- Set runtime path of "/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.496s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.496s] -- Set runtime path of "/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.496s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so
+[4.497s] -- Set runtime path of "/home/tal/TB3_PC_WS/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so" to ""
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.idl
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg
+[4.497s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.srv
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Request.msg
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Response.msg
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv
+[4.498s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport.cmake
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cppExport.cmake
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.499s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake
+[4.500s] -- Installing: /home/tal/TB3_PC_WS/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml
+[4.502s] Invoked command in '/home/tal/TB3_PC_WS/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/install/turtlebot3_teleop:/home/tal/TB3_PC_WS/install/turtlebot3_example:/opt/ros/galactic:/home/tal/TB3_PC_WS/install/tb_run_script:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/tal/TB3_PC_WS/build/turtlebot3_msgs
