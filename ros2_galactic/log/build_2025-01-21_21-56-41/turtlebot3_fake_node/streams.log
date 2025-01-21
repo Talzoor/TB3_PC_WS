@@ -1,0 +1,58 @@
+[0.007s] Invoking command in '/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tal/TB3_PC_WS/ros2_galactic/src/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node
+[0.016s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.028s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.067s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.080s] -- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+[0.082s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.092s] -- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+[0.144s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[0.189s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.217s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.218s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.230s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.312s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.357s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[0.363s] -- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[0.477s] -- Found turtlebot3_msgs: 2.2.3 (/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[0.573s] -- Configuring done
+[0.580s] -- Generating done
+[0.581s] -- Build files have been written to: /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node
+[0.584s] Invoked command in '/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tal/TB3_PC_WS/ros2_galactic/src/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node
+[0.586s] Invoking command in '/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node -- -j16 -l16
+[0.611s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[0.637s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[5.496s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[5.692s] [100%] Built target turtlebot3_fake_node
+[5.699s] Invoked command in '/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node -- -j16 -l16
+[5.711s] Invoking command in '/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node
+[5.715s] -- Install configuration: ""
+[5.715s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[5.717s] -- Set runtime path of "/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/include/
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[5.717s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[5.718s] -- Installing: /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[5.719s] Invoked command in '/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_fake_node

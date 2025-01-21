@@ -1,0 +1,1 @@
+Invoking command in '/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tal/TB3_PC_WS/ros2_galactic/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_gazebo

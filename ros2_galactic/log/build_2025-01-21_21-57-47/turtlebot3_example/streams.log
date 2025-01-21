@@ -1,0 +1,87 @@
+[0.380s] Invoking command in '/home/tal/TB3_PC_WS/ros2_galactic/src/turtlebot3-main/turtlebot3_example': AMENT_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/prefix_override:/home/tal/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages:/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build install --record /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[0.492s] running egg_info
+[0.492s] creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[0.492s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.492s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.492s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.492s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.492s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.493s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.512s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.512s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.512s] running build
+[0.512s] running build_py
+[0.512s] creating /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build
+[0.512s] creating /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib
+[0.512s] creating /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.512s] copying turtlebot3_example/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.513s] creating /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.513s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.513s] copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.513s] copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.513s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.513s] creating /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.513s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.513s] copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.513s] copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.513s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.513s] creating /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.513s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.513s] copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.513s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.513s] creating /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.513s] copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.513s] copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.513s] copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.514s] running install
+[0.514s] running install_lib
+[0.515s] creating /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example
+[0.515s] creating /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.515s] creating /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/main.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.515s] creating /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example
+[0.515s] creating /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.515s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.516s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.516s] copying /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.516s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[0.516s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/__init__.py to __init__.cpython-38.pyc
+[0.517s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/main.py to main.cpython-38.pyc
+[0.517s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-38.pyc
+[0.517s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[0.517s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-38.pyc
+[0.517s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/main.py to main.cpython-38.pyc
+[0.517s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py to turtlebot3_position_control.cpython-38.pyc
+[0.518s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-38.pyc
+[0.518s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/main.py to main.cpython-38.pyc
+[0.518s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-38.pyc
+[0.518s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/__init__.py to __init__.cpython-38.pyc
+[0.519s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/__init__.py to __init__.cpython-38.pyc
+[0.519s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/main.py to main.cpython-38.pyc
+[0.519s] byte-compiling /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-38.pyc
+[0.519s] running install_data
+[0.519s] creating /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/share/ament_index
+[0.519s] creating /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/share/ament_index/resource_index
+[0.519s] creating /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.519s] copying resource/turtlebot3_example -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.519s] copying package.xml -> /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/share/turtlebot3_example
+[0.519s] running install_egg_info
+[0.520s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.5-py3.8.egg-info
+[0.521s] running install_scripts
+[0.531s] Installing turtlebot3_obstacle_detection script to /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/turtlebot3_example
+[0.531s] Installing turtlebot3_patrol_client script to /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/turtlebot3_example
+[0.531s] Installing turtlebot3_patrol_server script to /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/turtlebot3_example
+[0.531s] Installing turtlebot3_position_control script to /home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/turtlebot3_example
+[0.531s] writing list of installed files to '/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/install.log'
+[0.545s] Invoked command in '/home/tal/TB3_PC_WS/ros2_galactic/src/turtlebot3-main/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/prefix_override:/home/tal/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_example/lib/python3.8/site-packages:/home/tal/TB3_PC_WS/ros2_galactic/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/build install --record /home/tal/TB3_PC_WS/ros2_galactic/build/turtlebot3_example/install.log --single-version-externally-managed install_data
